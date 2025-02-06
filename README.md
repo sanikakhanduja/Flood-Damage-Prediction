@@ -73,7 +73,3 @@ For more information, contact:
 📧 **Sanika Khanduja** – sanika172btcse23@igdtuw.ac.in  
 📧 **Shreyjaya Bahl** – shreyjaya190btcse23@igdtuw.ac.in  
 📧 **Ritu Rani (Corresponding Author)** – rituranibpit@gmail.com  
-
----
-
-This README provides a **comprehensive summary** of your project. Let me know if you need modifications! 🚀
