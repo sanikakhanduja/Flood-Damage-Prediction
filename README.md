@@ -1,40 +1,79 @@
-# Flood-Damage-Prediction
-Project Overview
-This project aims to predict the damage caused by floods in different states of India using historical flood data. The predictions focus on damage metrics such as area affected, crop loss, and human lives lost over a period from 1953 to 2021. By leveraging machine learning models, we aim to assist in disaster preparedness and resource allocation for flood relief efforts.
+# **India’s Flood Landscape: AI-Driven State-wise and Year-wise Analysis with Predictive and Preventive Insights (Assam Focus)**  
 
-Data Description
-The dataset used in this project includes:
+## **Abstract**  
+Floods in India cause extensive damage to infrastructure, agriculture, and human settlements. This project leverages **machine learning** to analyze **state-wise and year-wise** flood damages over the past 20 years, focusing on Assam. The study employs **Linear Regression, Random Forest, and Gradient Boosting** to predict future flood damage trends and improve flood management strategies.  
 
-State-wise flood damage data from 1953 to 2021.
-Key features:
-Year: The year the flood occurred.
-State: The affected state in India.
-Area affected (in hectares).
-Crop damage (in millions of rupees).
-Human lives lost.
-Total damage (estimated in financial terms).
-Data was sourced from government databases and other reliable sources.
+## **Introduction**  
+Floods are one of the most devastating natural disasters in India, with states like **Assam, West Bengal, and Andhra Pradesh** being highly vulnerable. Traditional flood prediction models rely on **historical statistics**, which may not capture evolving climate patterns. This project integrates **machine learning techniques** to **analyze past trends and forecast future flood impacts**, aiding in better flood preparedness and management.  
 
-METHODOLOGY
-Considering annual trends, state-wise and damage patterns, prediction models projecting the impacts of damage due 
-to floods during the next forty years, attempts are also made in this study. Year-by-year data checks were easily done 
-with Linear regression and found to provide good forecasts for a number of damage categories. 
-It also carried out a further district-by-district inquiry into the flood damage that Assam has been undergoing over the 
-last five years, which has also come out with various results that focus on gradient boosting as one of the best for 
-accurate predictions in this area. 
-Historical flood data is used when integrating machine learning algorithms in the estimation of future risks. The 
-approach assures that the pressing need in India for better flood management techniques is met by enhancing 
-preparedness and resilience in those affected areas.
+## **Objectives**  
+- **Analyze** flood damage trends in India (2000–2021).  
+- **Identify** the states most affected by floods.  
+- **Examine** district-wise flood impact in Assam (2019–2023).  
+- **Develop predictive models** to forecast future flood damages.  
+- **Provide recommendations** for flood mitigation and disaster management.  
 
-Results
-Accuracy: The model achieved an [98% accuracy] in predicting overall flood damage.
-Key Insights:
-Flood damage has increased significantly in certain regions over time.
-Crop loss is one of the most affected variables, with an upward trend observed.
-The random forest model provided the best balance of accuracy and interpretability.
-Future Work
-Improve model accuracy by using more sophisticated models like neural networks.
-Incorporate additional features such as rainfall data, river levels, or soil moisture to improve predictions.
-Expand the dataset to include global flood data for broader applicability.
-Contributors
-[Sanika Khanduja,Shreyjaya Bahl]
+## **Dataset Description**  
+The dataset is sourced from:  
+- **Central Water Commission (CWC)**: State-wise flood damage data (2000–2021).  
+- **Assam State Disaster Management Authority (ASDMA)**: Assam-specific flood data (2019–2023).  
+- **India Meteorological Department (IMD)**: Rainfall statistics.  
+
+**Key Parameters:**  
+- **Flood-affected area (in million hectares)**  
+- **Total population affected**  
+- **Crops damaged (area in million hectares & financial loss in Rs. Crore)**  
+- **Houses damaged (number & financial loss in Rs. Crore)**  
+- **Public utility damages (in Rs. Crore)**  
+- **Rainfall statistics (actual vs. normal rainfall, deviation in mm)**  
+
+## **Methodology**  
+The project follows a structured **data-driven approach**:  
+
+### **1. Data Preprocessing**  
+- **Cleaning & Imputation**: Handling missing values and outliers.  
+- **Feature Engineering**: Creating new attributes (e.g., damage per capita).  
+- **Scaling**: Standardizing numerical variables.  
+
+### **2. Exploratory Data Analysis (EDA)**  
+- **Trend Analysis**: Year-wise flood damage comparison.  
+- **Geographical Analysis**: Identifying highly affected states and regions.  
+- **Anomaly Detection**: Using **K-Means Clustering** to detect unusual flood years.  
+
+### **3. Predictive Modeling**  
+**Machine Learning Algorithms Used:**  
+- **Linear Regression** (for general trend forecasting).  
+- **Random Forest** (for robust predictions).  
+- **Gradient Boosting** (best for Assam-specific predictions).  
+
+## **Tools & Technologies**  
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn).  
+- **Machine Learning Algorithms** (Linear Regression, SVM, Random Forest, Gradient Boosting).  
+- **Data Visualization** (Heatmaps, Bar Charts, Line Graphs, Scatter Plots).  
+
+## **Key Findings**  
+- **Flood damages have increased over the years**, with **2015 and 2021 being the most destructive**.  
+- **Andhra Pradesh, West Bengal, and Karnataka** suffered the highest total damages.  
+- **Assam experiences frequent flooding**, with Baksa, Chirang, and Barpeta being the most vulnerable districts.  
+- **Linear Regression was the best-performing model** for national predictions, while **Gradient Boosting performed best for Assam**.  
+
+## **Results**  
+- **Flood damage is increasing in both severity and frequency**, especially in urban areas.  
+- **Public infrastructure is highly vulnerable**, with damages exceeding **₹50,000 Cr in peak years**.  
+- **Gradient Boosting achieved an R² score of 0.9999**, making it highly accurate for Assam’s flood damage predictions.  
+
+## **Future Scope**  
+- **Integrate IoT & real-time satellite data** for early flood detection.  
+- **Enhance models using Convolutional Neural Networks (CNNs) & LSTMs**.  
+- **Develop a flood risk index for Indian states and districts**.  
+- **Improve disaster response strategies using AI-powered decision systems**.  
+
+## **Contact**  
+For more information, contact:  
+📧 **Sanika Khanduja** – sanika172btcse23@igdtuw.ac.in  
+📧 **Shreyjaya Bahl** – shreyjaya190btcse23@igdtuw.ac.in  
+📧 **Ritu Rani (Corresponding Author)** – rituranibpit@gmail.com  
+
+---
+
+This README provides a **comprehensive summary** of your project. Let me know if you need modifications! 🚀
